@@ -1,0 +1,16 @@
+{
+  "name": "pw-apitest-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "apitests": "npx playwright test workingWithAPI.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.12.0"
+  }
+}
