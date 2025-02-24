@@ -15,7 +15,7 @@ setup('authentication', async({request}) => {
     // await page.waitForResponse('*/**/api/tags')
 
     // await page.context().storageState({path: authFile})
-    
+    console.log('Authetication running.')
     const response = await request.post('https://conduit-api.bondaracademy.com/api/users/login', {
         data: {
           "user": {
